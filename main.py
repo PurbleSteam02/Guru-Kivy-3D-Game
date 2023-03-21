@@ -366,7 +366,7 @@ class MainWidget(RelativeLayout):
                 self.offsety-=spacingy
                 self.loopno+=1
                 self.score_txt="Score: "+str(self.loopno)
-                highscoreopen1=open('C:\\Users\\khann\\Desktop\\Escape the road\\HighScore.txt', 'r')
+                highscoreopen1=open('.\\HighScore.txt', 'r')
                 highscoreread=highscoreopen1.read()
                 # print(highscoreread[0:highscoreread.find(" ")])
                 if self.loopno>=int(highscoreread[0:highscoreread.find(" ")]):
