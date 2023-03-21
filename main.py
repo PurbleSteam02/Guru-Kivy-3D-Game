@@ -356,7 +356,7 @@ class MainWidget(RelativeLayout):
         self.updatecar()
         self.makelavaquards()
         self.updatelava()
-        self.timef=dt*60
+        self.timef=dt*600
 
         if (not self.isgo) and self.isstart:
             self.offsety+=self.speed*self.height*self.timef
